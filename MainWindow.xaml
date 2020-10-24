@@ -1,0 +1,29 @@
+﻿<Window x:Class="EJ3_Mosaico_DINT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EJ3_Mosaico_DINT"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="480" MinWidth="450" Height="511.224" Width="866.122">
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Top" Height="100" Width="auto" Background="Purple" TextWrapping="Wrap" Text=""/>
+        <TextBlock DockPanel.Dock="Left" Background="Purple" Height="auto" Width="100" TextWrapping="Wrap" Text="" />
+        <TextBlock DockPanel.Dock="Right" Height="auto" Width="100" TextWrapping="Wrap" Text="" Background="Green" />
+        <TextBlock DockPanel.Dock="Bottom" Height="100" Width="auto" TextWrapping="Wrap" Text="" Background="Green"/>
+
+        <TextBlock DockPanel.Dock="Left" Width="100" Height="auto" HorizontalAlignment="Left" Text="" Background="OrangeRed"/>
+        <TextBlock DockPanel.Dock="Bottom" Width="auto" Height="100" VerticalAlignment="Bottom" Text="" Background="OrangeRed"/>
+
+        <TextBlock DockPanel.Dock="Top" Width="auto" Height="100" VerticalAlignment="Top" Text="" Background="DeepPink"/>
+        <TextBlock DockPanel.Dock="Right" Height="auto" Text="" Background="DeepPink" HorizontalAlignment="Right" Width="100"/>
+
+        <TextBlock  Width="auto" Height="auto" Text="" Background="Black"/>
+
+
+
+
+
+
+    </DockPanel>
+</Window>
